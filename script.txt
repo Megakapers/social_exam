@@ -1,0 +1,29 @@
+We are going to have a look at pedestrian data from Melbourne.
+
+We will look at where people are at different hours of the day.
+
+See if we can find oddities in the data that might suggest that something
+extraordinary went on at at a given date and time.
+
+See if we can identify specific dates, or find patterns in the pedestrian's
+whereabouts through out the day.
+
+To do this we need data!
+
+The data we have tells gives us an hourly pedrestrian count from fourty three
+sensors througout Melbourne.
+
+We have data from May 2009
+
+To Feburary 2016.
+
+Every sensor is sampled once pr hour, this gives us a total of 1,421,849 rows of
+data to analyze.
+
+Let's have a look...
+
+These are the locations of the 43 sensors:
+
+Pictur
+
+This is how the pedestrians were distributed on new years eve 2010.

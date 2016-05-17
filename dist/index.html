@@ -1,0 +1,53 @@
+
+
+    <!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8"/>
+            <title>Project B - A look at Melbourne Pedestrians</title>
+        </head>
+        <body>
+
+            <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+            <script src="semantic/dist/semantic.min.js"></script>
+
+
+            <script defer src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script defer src="d3_code_in_here.js"></script>
+            <link rel="stylesheet" href="styles.css">
+
+            <h1 class="ui header">
+                A look at Pedestrian Whereabouts in Melbourne
+            </h1>
+
+
+            <div id="content" class="ui centered segment">
+
+            <h2 class="ui header">The Data</h2>
+            <p>
+
+            An updated version of the data can be found
+            <a href="https://data.melbourne.vic.gov.au/data?search=%22pedestrian+counts%22">HERE</a>
+            And the specific version used for these visualizations can be found
+            <a href="">HERE</a>
+            and
+            <a href="">HERE</a>
+
+           <p>It revolves around pedrestian data from Melbourn and it gives us a window into where pedestrians are throughout the day. The two tables consist of information about a number of sensors and a number of obervations. Today there is 44 sensors across Melbourne. The first sensors were installed in 2009 and since then more have been added.
+           </p>
+
+           <p>
+               Each sensor is able to determine the number of pedestrians in it's proximity, every hour each sensor is sampled, giving us a total of almost 1.4 million rows to analyze. Each row contains information about the longitude and latitude of the sensor, which sensor it is, the date and time of the observation aand an hourly count amongst a few lesser interesting metrics. 
+           </p>
+
+           <h3 class="ui header">A closer look at the data!</h3>
+           Below is an image showing the locations of the sensors throughout Melbourne just to get an idea about what we're looking at. 
+           <img class="ui centered image" alt="" src="locations.png"/>
+
+            </div>
+
+        </body>
+    </html>
+
+

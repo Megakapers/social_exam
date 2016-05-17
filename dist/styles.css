@@ -1,0 +1,11 @@
+body{
+    margin: 2em;
+}
+
+h1.ui.header{
+    margin: 0.5em;
+}
+#content
+{
+    max-width:800px;
+}
