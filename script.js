@@ -105,19 +105,5 @@ d3.json("sensor_list.json", function(error, json)
             populate_select(json);
         });
 
-d3.json("map_data.json", function(error, json)
-        {
-            if(error) return console.warn.error();
-            map_data = json;
 
-            populate_map(json);
 
-        });
-
-d3.json("melbourne.geojson", function(error, json)
-        {
-            if(error) return console.warn.error();
-            geo_data = json;
-
-            draw_map(json)
-        });
